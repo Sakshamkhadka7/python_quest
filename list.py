@@ -5,13 +5,21 @@ print(numbers[1])
 print(numbers[2])
 print(numbers[4])
 
+numbers.append(60)
+print(numbers[5])
 
 print(numbers[-1])
 print(numbers[-2])
 
-student = ["saksham", "kuldeep", "milan","saroj","adarsha"]
+print(numbers[1:4])
+print(numbers[::2]) 
 
-for item in student:
-    print(item)  
 
-print(student[2:]) 
+# student = ["saksham", "kuldeep", "milan","saroj","adarsha"]
+
+# for item in student:
+#     print(item)  
+
+# print(student[2:]) 
+
+
