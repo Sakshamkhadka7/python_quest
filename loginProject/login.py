@@ -31,7 +31,8 @@ class ValidationSystem:
 
 
 class UserRegistration:
-    def _init_(self):
+   
+    def __init__(self):
         self.validator = ValidationSystem()
 
     def register(self):
@@ -61,7 +62,6 @@ class UserRegistration:
             print("\nRegistration Successful!")
         else:
             print("\nRegistration Failed!")
-
 
 
 
